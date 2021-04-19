@@ -1,0 +1,110 @@
+
+<!-- cards starts -->
+
+<div class="container-fluid mymt-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12 col-12 offset-md-3 offset-lg-3 d-block m-auto text-center" data-aos="fade-down" data-aos-duration="1700">
+            <h1 class="mytxt-clr myhtxtres1">CONTACT US</h1>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-12 col-lg-12 col-12 col-sm-12 d-block m-auto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.421703933093!2d75.91279251415061!3d14.460457784374023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bba256573436f4b%3A0x4883314e56f12f36!2sIGNITIVE%20LABS%20INDIA%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1596787118837!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+
+    <div class="row mymt1-5" data-aos="fade-left" data-aos-duration="1700"> 
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12 d-block m-auto mymar">
+          <div class="card icon-rounded c-h">
+            <div class="card-body align-self-center">
+              <img src="../../assets/images/contact us/1.png" class="img-fluid ml-4" alt="">
+              <h2 class="mt-5 myhtxtres2">LOCATION</h2>
+            </div>
+            <div class="card-footer border-top-0 bg-transparent mt-n5 mb-4">
+              <p class="card-text text-center myhtxtres3">
+                #9-469/3 ,Mirza Plaza ,
+                2nd Floor, 8th Main Rd,
+                Prince Jayachamaraja Wodeyar,
+                Davanagere, Karnataka 577002</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12 d-block m-auto mymar">
+          <div class="card icon-rounded c-h">
+            <div class="card-body align-self-center">
+              <img src="../../assets/images/contact us/2.png" class="img-fluid ml-2" alt="">
+              <h2 class="mt-5 myhtxtres2">CONTACT</h2>
+            </div>
+            <div class="card-footer border-top-0 bg-transparent mt-n5 mb-5">
+              <p class="card-text text-center myhtxtres3">+91 8105542291</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12 col-12 d-block m-auto mymar">
+          <div class="card icon-rounded c-h">
+            <div class="card-body align-self-center">
+              <img src="../../assets/images/contact us/3.png" class="img-fluid ml-2" alt="">
+              <h2 class="mt-5 myhtxtres2">WORKS</h2>
+            </div>
+            <div class="card-footer border-top-0 bg-transparent mt-n5 mb-5">
+              <p class="card-text text-center myhtxtres3">Mon- Sat 10:00-6:00 Sunday Closed</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</div>
+
+<!-- Cards ends -->
+
+<!-- fisrt grid starts -->
+<div class="container-fluid mymt1-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-6 col-12 col-sm-12 d-block m-auto mypos" data-aos="fade-right" data-aos-duration="1700">
+            <h1 class="mytxt-clr myhtxtres1 my">WANT TO TAKE PART IN OUR INTERNSHIP PROGRAM?</h1>
+        </div>
+        <div class="col-md-6 col-lg-6 col-12 col-sm-12 d-block m-auto f-mar" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1700">
+            <form [formGroup]="sform" (ngSubmit)="onSubmit(sform)">
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="* Full Name"
+                    formControlName="sname"  
+                    [ngClass]="{'is-valid':name.valid,'is-invalid':name.invalid && name.touched}">
+                    <div *ngIf="name.errors && name.touched">
+                      <small class="help-desk text-danger ml-2" *ngIf="name.errors.required">Full Name is mandatory</small>
+                      <small class="help-desk text-danger ml-2" *ngIf="name.errors.pattern">should contain only alphabets</small>
+                     </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="*Subject"
+                    formControlName="subject" [ngClass]="{'is-valid':sub.valid,'is-invalid':sub.invalid && sub.touched}">
+                   <div *ngIf="sub.errors && sub.touched">
+                    <small class="help-desk text-danger ml-2" *ngIf="sub.errors.required">Subject is mandatory</small>
+                    <small class="help-desk text-danger ml-2" *ngIf="sub.errors.pattern">should contain only alphabets</small>
+                   </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="* Email"
+                    formControlName="email" [ngClass]="{'is-valid':mail.valid,'is-invalid':mail.invalid && mail.touched}">
+                    <div *ngIf="mail.errors && mail.touched">
+                      <small class="help-desk text-danger ml-2" *ngIf="mail.errors.required">Email is mandatory</small>
+                      <small class="help-desk text-danger ml-2" *ngIf="mail.errors.email">Enter valid email</small>
+                     </div>
+                </div>
+
+                <div class="form-group">
+                   <textarea class="form-control form-control-lg" rows="7px"  placeholder="Message (Optional)"
+                   formControlName="msg"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="mybtn float-right mt-3" [disabled]="sform.invalid" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- first grid ends -->

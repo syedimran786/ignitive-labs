@@ -1,0 +1,190 @@
+/* about us starts */
+
+.icon-h
+{
+    height: 20px;
+    width: 20px;
+}
+.icon-rounded
+{
+    border-radius: 25px;
+    background-color: rgba(230 220 220 / 69%);
+    background-color: white;
+    box-shadow: 6px 4px 20px 10px rgb(233, 231, 231);
+    border: none;
+    color: #033b7c;
+}
+
+.c-h
+{
+    height: 350px;
+}
+
+.c-h:hover
+{
+    background-color: #003777;
+    color: white!important;
+    box-shadow: 6px 4px 20px 10px rgb(116, 133, 153);
+}
+
+/* about us ends */
+
+.mymt-5
+{
+    margin-top: 100px;
+}
+.mymt1-5
+{
+    margin-top: 140px;
+}
+.mymar
+{
+    margin-top: 100px;
+}
+.icon-size
+{
+    font-size: 40px;
+}
+
+.img-size
+{
+    height: 300px;
+    width:300px ;
+    border:2px groove #003777;
+    border-radius: 100%;
+}
+
+
+/* Media Quryy Starts */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 459px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+
+}
+@media (min-width: 460px) and (max-width: 574px)
+{
+   
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 10px;
+    }
+   
+}
+/* ---------------------- */
+
+@media (min-width: 575px) and (max-width: 767.98px)
+ {  
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 15px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px)
+ {  
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 19px;
+    }
+
+    .mybtn
+    {
+        padding: 8px 31px;
+        font-size: 17px;
+        
+    }
+
+    .c-h
+    {
+        margin-top: 15px;
+    }
+
+    .card-text1
+    {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .card-text2
+    {
+        font-size: 12px;
+        text-align: center;
+        
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) 
+ { 
+    
+    
+  }

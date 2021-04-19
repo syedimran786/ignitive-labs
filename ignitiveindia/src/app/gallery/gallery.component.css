@@ -1,0 +1,144 @@
+.mt1-5
+{
+    margin-top: 120px;
+}
+.mybg
+{
+    background-color: gray;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.img-size
+{
+    width: 100%;
+    height: 300px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    margin-top: 5px;
+    transition: transform 2s;
+    opacity: 0.8;
+}
+
+.img-size:hover
+{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.container-fluid
+{
+    background-color: #f1f1f1;
+}
+
+/* Media Quryy Starts */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 459px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+  .mybg
+  {
+    background-color: white;
+  }
+
+  .container-fluid
+{
+    background-color: #b4aeae;
+}
+.img-size
+{
+    box-shadow: 5px 5px 5px #dacbcb;
+   
+}
+
+}
+@media (min-width: 460px) and (max-width: 574px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mybg
+    {
+      background-color: white;
+    }
+  
+    .container-fluid
+  {
+      background-color: #b4aeae;
+  }
+  .img-size
+  {
+      box-shadow: 5px 5px 5px #dacbcb;
+     
+  }
+   
+}
+
+@media (min-width: 575px) and (max-width: 767.98px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mybg
+    {
+      background-color: white;
+    }
+  
+    .container-fluid
+  {
+      background-color: #b4aeae;
+  }
+  .img-size
+  {
+      box-shadow: 5px 5px 5px #dacbcb;
+     
+  }
+   
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px)
+ {  
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mybg
+    {
+      background-color: white;
+    }
+  
+    .container-fluid
+  {
+      background-color: #b4aeae;
+  }
+  .img-size
+  {
+      box-shadow: 5px 5px 5px #dacbcb;
+     
+  }
+   
+ }
+
+ /* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) 
+ { 
+    
+    
+  }

@@ -1,0 +1,137 @@
+.mymt1-5
+{
+    margin-top: 120px;
+}
+.l-ht
+{
+    line-height: 30px;
+}
+
+.mymt-5
+{
+    margin-top: 100px;
+}
+.mybtn
+{
+    padding: 10px 50px;
+    background-color: transparent;
+    background-image: radial-gradient(rgb(65, 97, 236),rgb(49, 148, 187) );
+    text-shadow: 0px 0px 10px rgba(0,0,0,0);
+    border-radius: 40px;
+    border: 1px solid rgb(65, 97, 236);
+    outline: none;
+    color:white;
+    font-size: 20px;
+    transition: transform 1s;
+}
+.mybtn:hover
+{
+    box-shadow: 0px 8px 20px 0px rgba(3, 71, 213, 0.36);
+    background-image: linear-gradient(255deg, rgb(31, 172, 197) 0%, rgb(20, 106, 139) 100%);
+    transform: scale(1.1);
+}
+
+
+.rn-bg
+{
+    background-color: rgba(240, 230, 230,0.5);
+}
+
+.my-round
+{
+    border-radius: 20px;
+    width: 100%!important;
+}
+
+.nbg
+{
+    background-color: #003777;
+    /* background-color: white; */
+}
+
+.my-round1
+{
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Media Quryy Starts */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 459px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+  .mymar
+  {
+      margin-top: 20px!important;
+  }
+}
+@media (min-width: 460px) and (max-width: 574px)
+{
+    .myhtxtres1
+    {
+        font-size: 30px;
+        font-weight: bold;
+    }
+  .mymar
+  {
+      margin-top: 20px!important;
+  }
+   
+}
+
+@media (min-width: 575px) and (max-width: 767.98px)
+{
+    
+    .myhtxtres1
+    {
+        font-size: 35px;
+        font-weight: bold;
+    }
+  .mymar
+  {
+      margin-top: 20px!important;
+  }
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px)
+ {  
+    
+     
+    .myhtxtres1
+    {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .myhtxtres2
+    {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .myhtxtres3
+    {
+        font-size: 12px;
+    }
+  .mymar
+  {
+      margin-top: 20px!important;
+  }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) 
+ { 
+    
+    
+  }
